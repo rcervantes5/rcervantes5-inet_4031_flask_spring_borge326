@@ -1,14 +1,14 @@
 import unittest
 import sphere
 
-class cylinderTest(unittest.TestCase):
+class sphereTest(unittest.TestCase):
 
     #passing tests
     def test_volume1(self):
-        assert(sphere.volume(10) == 4188.7902047864)
+        assert(sphere.volume(10) == 4188.790204786391)
 
     def test_volume2(self):
-        assert(sphere.volume(15) == 14137.166941154)
+        assert(sphere.volume(5) == 523.5987755982989)
 
     #failing test
     #def test_volume3(self):
