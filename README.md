@@ -148,3 +148,17 @@ You will need to duplicate my repo to try this functionality yourself (we will d
 # That's It!
 
 Please take the time to look through the code and understand it.  Better yet, show up to class and participate and learn, and understanding the code will be much easier.
+
+
+
+Answer for question:
+
+We can use commands such as commit command in order to synch the local repository to the github one, then use a pull to get the updated files from github. 
+Using command 
+$ git pull remotename branchname
+# Grabs online updates and merges them with your local work
+
+Another method is to do use git clone to the resposirtoryu and download every file in that repository. 
+Use the command: 
+$ git clone https://github.com/USERNAME/REPOSITORY.git
+# Clones a repository to your computer
